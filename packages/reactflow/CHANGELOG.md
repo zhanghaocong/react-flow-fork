@@ -7,12 +7,12 @@
 - fix(panOnScroll): use correct filter so that connections work
 
 - Updated dependencies [[`e0cef7f1`](https://github.com/wbkd/react-flow/commit/e0cef7f1403f489f079ba7acc5b5a9aa596c39e9)]:
-  - @reactflow/core@11.9.4
-  - @reactflow/background@11.3.4
-  - @reactflow/controls@11.2.4
-  - @reactflow/minimap@11.7.4
-  - @reactflow/node-resizer@2.2.4
-  - @reactflow/node-toolbar@1.3.4
+  - @reactflowfork/core@11.9.4
+  - @reactflowfork/background@11.3.4
+  - @reactflowfork/controls@11.2.4
+  - @reactflowfork/minimap@11.7.4
+  - @reactflowfork/node-resizer@2.2.4
+  - @reactflowfork/node-toolbar@1.3.4
 
 ## 11.9.3
 
@@ -21,12 +21,12 @@
 - fix(selection): select nodes on click when nodeDragThreshold > 0
 
 - Updated dependencies [[`530ccc08`](https://github.com/wbkd/react-flow/commit/530ccc08b61a14b6e5913623ee732a768eafdc31)]:
-  - @reactflow/core@11.9.3
-  - @reactflow/background@11.3.3
-  - @reactflow/controls@11.2.3
-  - @reactflow/minimap@11.7.3
-  - @reactflow/node-resizer@2.2.3
-  - @reactflow/node-toolbar@1.3.3
+  - @reactflowfork/core@11.9.3
+  - @reactflowfork/background@11.3.3
+  - @reactflowfork/controls@11.2.3
+  - @reactflowfork/minimap@11.7.3
+  - @reactflowfork/node-resizer@2.2.3
+  - @reactflowfork/node-toolbar@1.3.3
 
 ## 11.9.2
 
@@ -35,7 +35,7 @@ Fix broken build on npm
 ### Patch Changes
 
 - Updated dependencies
-  - @reactflow/core@11.9.2
+  - @reactflowfork/core@11.9.2
 
 ## 11.9.1
 
@@ -45,12 +45,12 @@ This release fixes a bug (`deleteKeyCode` didn't work) that was introduced in th
 
 - [#3453](https://github.com/wbkd/react-flow/pull/3453) [`0956f325`](https://github.com/wbkd/react-flow/commit/0956f325afaa84220eca4319e496bb18b86de4bf) Thanks [@moklick](https://github.com/moklick)! - fix(nodes): remove via deleteKeyCode
 - Updated dependencies [[`0956f325`](https://github.com/wbkd/react-flow/commit/0956f325afaa84220eca4319e496bb18b86de4bf)]:
-  - @reactflow/core@11.9.1
-  - @reactflow/background@11.3.1
-  - @reactflow/controls@11.2.1
-  - @reactflow/minimap@11.7.1
-  - @reactflow/node-resizer@2.2.1
-  - @reactflow/node-toolbar@1.3.1
+  - @reactflowfork/core@11.9.1
+  - @reactflowfork/background@11.3.1
+  - @reactflowfork/controls@11.2.1
+  - @reactflowfork/minimap@11.7.1
+  - @reactflowfork/node-resizer@2.2.1
+  - @reactflowfork/node-toolbar@1.3.1
 
 ## 11.9.0
 
@@ -73,12 +73,12 @@ With this version you can finally delay node drag events or suppress them when y
 - [#3446](https://github.com/wbkd/react-flow/pull/3446) [`6139da2b`](https://github.com/wbkd/react-flow/commit/6139da2bdc0d226ae90c4e8e19cbd5c91b4a59c9) - fix(nodes): disable all panning when `panOnDrag={false}`
 - [#3389](https://github.com/wbkd/react-flow/pull/3389) [`db357a42`](https://github.com/wbkd/react-flow/commit/db357a42628563e9cd2d058a27230ab961b6230f) - fix (edge-selection): consistent behaviour with node selection
 - Updated dependencies [[`db4baa86`](https://github.com/wbkd/react-flow/commit/db4baa8606fd2ad771ca4eea701ca3788d4aaf49), [`3aac72cb`](https://github.com/wbkd/react-flow/commit/3aac72cb699b9dd495bdbd0bcb3204bbb30c4115), [`190958b5`](https://github.com/wbkd/react-flow/commit/190958b537e3b53cbfd87ac77fb8513173bf1338), [`1a7c903c`](https://github.com/wbkd/react-flow/commit/1a7c903cd795ea1aaf8c8f4e23eceb3068720541), [`fd0472d4`](https://github.com/wbkd/react-flow/commit/fd0472d4ab1df8d6ecfde0006d9cabd3258342b9), [`f118aee8`](https://github.com/wbkd/react-flow/commit/f118aee8b121df842f2ea1a255f2c9d7d8c3b45b), [`274c73f9`](https://github.com/wbkd/react-flow/commit/274c73f9a26188d52315bf49cbc4192903d3b11c), [`17ea954e`](https://github.com/wbkd/react-flow/commit/17ea954ea5fdb613be92863250c89ec12f2b60a5), [`2488941c`](https://github.com/wbkd/react-flow/commit/2488941c147b2b15c89cdf6d24c1420546f2ef91), [`6139da2b`](https://github.com/wbkd/react-flow/commit/6139da2bdc0d226ae90c4e8e19cbd5c91b4a59c9), [`db357a42`](https://github.com/wbkd/react-flow/commit/db357a42628563e9cd2d058a27230ab961b6230f)]:
-  - @reactflow/core@11.9.0
-  - @reactflow/background@11.3.0
-  - @reactflow/controls@11.2.0
-  - @reactflow/minimap@11.7.0
-  - @reactflow/node-resizer@2.2.0
-  - @reactflow/node-toolbar@1.3.0
+  - @reactflowfork/core@11.9.0
+  - @reactflowfork/background@11.3.0
+  - @reactflowfork/controls@11.2.0
+  - @reactflowfork/minimap@11.7.0
+  - @reactflowfork/node-resizer@2.2.0
+  - @reactflowfork/node-toolbar@1.3.0
 
 ## 11.8.3
 
@@ -91,12 +91,12 @@ Yet another fix for step and smoothstep edge routes
 ### Patch Changes
 
 - Updated dependencies [[`3b329d69`](https://github.com/wbkd/react-flow/commit/3b329d6991023e66b9b1b8b4cba1cccf21b6788e)]:
-  - @reactflow/core@11.8.3
-  - @reactflow/background@11.2.8
-  - @reactflow/controls@11.1.19
-  - @reactflow/minimap@11.6.3
-  - @reactflow/node-resizer@2.1.5
-  - @reactflow/node-toolbar@1.2.7
+  - @reactflowfork/core@11.8.3
+  - @reactflowfork/background@11.2.8
+  - @reactflowfork/controls@11.1.19
+  - @reactflowfork/minimap@11.6.3
+  - @reactflowfork/node-resizer@2.1.5
+  - @reactflowfork/node-toolbar@1.2.7
 
 ## 11.8.2
 
@@ -107,12 +107,12 @@ With this fix it's possible to use React17 again
 - [#3327](https://github.com/wbkd/react-flow/pull/3327) [`7132c168`](https://github.com/wbkd/react-flow/commit/7132c16895c89c6d538a6b8de626e6167d41ce95) - fix(react17): dont use mjs for esm modules
 
 - Updated dependencies [[`7132c168`](https://github.com/wbkd/react-flow/commit/7132c16895c89c6d538a6b8de626e6167d41ce95)]:
-  - @reactflow/background@11.2.7
-  - @reactflow/controls@11.1.18
-  - @reactflow/core@11.8.2
-  - @reactflow/minimap@11.6.2
-  - @reactflow/node-resizer@2.1.4
-  - @reactflow/node-toolbar@1.2.6
+  - @reactflowfork/background@11.2.7
+  - @reactflowfork/controls@11.1.18
+  - @reactflowfork/core@11.8.2
+  - @reactflowfork/minimap@11.6.2
+  - @reactflowfork/node-resizer@2.1.4
+  - @reactflowfork/node-toolbar@1.2.6
 
 ## 11.8.1
 
@@ -122,12 +122,12 @@ This patch release fixes an issue with nextjs that was introduces in 11.8.0
 
 - [`1d99926c`](https://github.com/wbkd/react-flow/commit/1d99926c92c8519286d01fb584c8ef6497dc247a) Thanks [@Reflejo](https://github.com/Reflejo)! - Fix navigator being used on server-side rendering
 - Updated dependencies [[`1d99926c`](https://github.com/wbkd/react-flow/commit/1d99926c92c8519286d01fb584c8ef6497dc247a)]:
-  - @reactflow/core@11.8.1
-  - @reactflow/background@11.2.6
-  - @reactflow/controls@11.1.17
-  - @reactflow/minimap@11.6.1
-  - @reactflow/node-resizer@2.1.3
-  - @reactflow/node-toolbar@1.2.5
+  - @reactflowfork/core@11.8.1
+  - @reactflowfork/background@11.2.6
+  - @reactflowfork/controls@11.1.17
+  - @reactflowfork/minimap@11.6.1
+  - @reactflowfork/node-resizer@2.1.3
+  - @reactflowfork/node-toolbar@1.2.5
 
 ## 11.8.0
 
@@ -169,12 +169,12 @@ If you are using Zustand, you need to update to v4.4.1 and follow the migration 
 - [#3285](https://github.com/wbkd/react-flow/pull/3285) [`e64e961a`](https://github.com/wbkd/react-flow/commit/e64e961a80517351068fc04146123fbd4fc744e5) - chore(a11y): always add role attribute to edge wrapper
 - chore(tests): use latest cypress version
 - Updated dependencies [[`15742c00`](https://github.com/wbkd/react-flow/commit/15742c004759e8cfcb84b83cb71e678b6c855d23), [`10a32239`](https://github.com/wbkd/react-flow/commit/10a32239063be3c2cc107145b9a21ac850c90410), [`fdddf43d`](https://github.com/wbkd/react-flow/commit/fdddf43d0d3b4b71158c0e0b56aab9dcbd61da6d), [`6255c4cf`](https://github.com/wbkd/react-flow/commit/6255c4cf29ee6177762d49289cff9a555510bcce), [`ff85d908`](https://github.com/wbkd/react-flow/commit/ff85d908a94ba5add9bc66a0ded0cb755c95fcda), [`61d90578`](https://github.com/wbkd/react-flow/commit/61d905784113c2fb3cdf5993292cc6ac694dac7c), [`6e6bb674`](https://github.com/wbkd/react-flow/commit/6e6bb6743ed4b4f517528f52411d9612f3f13d58), [`327e54f5`](https://github.com/wbkd/react-flow/commit/327e54f587d4834e85a2caf2af45a6fc2b24d8b2), [`1f4a2b52`](https://github.com/wbkd/react-flow/commit/1f4a2b5244b15a2dad5c6afd565cc459f33c4abc), [`511ca769`](https://github.com/wbkd/react-flow/commit/511ca7699b67d8fc9088069f426c062184487b8a), [`bb1b9318`](https://github.com/wbkd/react-flow/commit/bb1b93183a374fbf002625e962441ff0ff288c08), [`ed4a0c1b`](https://github.com/wbkd/react-flow/commit/ed4a0c1b1629ab356dc4b4fd2dcedfde6e99d3b8), [`f9169108`](https://github.com/wbkd/react-flow/commit/f916910820916305be0d93060532224ff311aa80), [`8b3e8400`](https://github.com/wbkd/react-flow/commit/8b3e840039ab7406ac3837ba373ec01b002892de), [`e64e961a`](https://github.com/wbkd/react-flow/commit/e64e961a80517351068fc04146123fbd4fc744e5), [`de989bc6`](https://github.com/wbkd/react-flow/commit/de989bc604ccbc7951371430381547582f768dff)]:
-  - @reactflow/background@11.2.5
-  - @reactflow/controls@11.1.16
-  - @reactflow/core@11.8.0
-  - @reactflow/minimap@11.6.0
-  - @reactflow/node-resizer@2.1.2
-  - @reactflow/node-toolbar@1.2.4
+  - @reactflowfork/background@11.2.5
+  - @reactflowfork/controls@11.1.16
+  - @reactflowfork/core@11.8.0
+  - @reactflowfork/minimap@11.6.0
+  - @reactflowfork/node-resizer@2.1.2
+  - @reactflowfork/node-toolbar@1.2.4
 
 ## 11.7.4
 
@@ -183,11 +183,11 @@ If you are using Zustand, you need to update to v4.4.1 and follow the migration 
 - [#3166](https://github.com/wbkd/react-flow/pull/3166) [`1941c561`](https://github.com/wbkd/react-flow/commit/1941c561c9eab937c0a01747c6d188ec8c6a1bf8) - fix(nodeExtent): include node width and height
 - [#3164](https://github.com/wbkd/react-flow/pull/3164) [`c8b607dc`](https://github.com/wbkd/react-flow/commit/c8b607dcddeaf80912b756b0ce8045f7974e4657) - fix(handles): always check handles below mouse while connecting
 - Updated dependencies [[`1941c561`](https://github.com/wbkd/react-flow/commit/1941c561c9eab937c0a01747c6d188ec8c6a1bf8), [`c8b607dc`](https://github.com/wbkd/react-flow/commit/c8b607dcddeaf80912b756b0ce8045f7974e4657)]:
-  - @reactflow/core@11.7.4
-  - @reactflow/background@11.2.4
-  - @reactflow/controls@11.1.15
-  - @reactflow/minimap@11.5.4
-  - @reactflow/node-toolbar@1.2.3
+  - @reactflowfork/core@11.7.4
+  - @reactflowfork/background@11.2.4
+  - @reactflowfork/controls@11.1.15
+  - @reactflowfork/minimap@11.5.4
+  - @reactflowfork/node-toolbar@1.2.3
 
 ## 11.7.3
 
@@ -199,12 +199,12 @@ If you are using Zustand, you need to update to v4.4.1 and follow the migration 
 - [#3153](https://github.com/wbkd/react-flow/pull/3153) [`fbbee046`](https://github.com/wbkd/react-flow/commit/fbbee046282d466612089d31a2eff5a010733283) - Minimap: Improve performance for flows with lots of nodes that use the MiniMap component
 
 - Updated dependencies [[`fbbee046`](https://github.com/wbkd/react-flow/commit/fbbee046282d466612089d31a2eff5a010733283), [`52dbac5a`](https://github.com/wbkd/react-flow/commit/52dbac5a56c092504256f947df7a959eb07385c6), [`3a277cb1`](https://github.com/wbkd/react-flow/commit/3a277cb123a886af093cee694c289c7e139c79ef), [`880a5932`](https://github.com/wbkd/react-flow/commit/880a593292ce5fdff30b656c2a1290cf98771818)]:
-  - @reactflow/minimap@11.5.3
-  - @reactflow/core@11.7.3
-  - @reactflow/node-resizer@2.1.1
-  - @reactflow/background@11.2.3
-  - @reactflow/controls@11.1.14
-  - @reactflow/node-toolbar@1.2.2
+  - @reactflowfork/minimap@11.5.3
+  - @reactflowfork/core@11.7.3
+  - @reactflowfork/node-resizer@2.1.1
+  - @reactflowfork/background@11.2.3
+  - @reactflowfork/controls@11.1.14
+  - @reactflowfork/node-toolbar@1.2.2
 
 ## 11.7.2
 
@@ -215,11 +215,11 @@ If you are using Zustand, you need to update to v4.4.1 and follow the migration 
 - [#3064](https://github.com/wbkd/react-flow/pull/3064) [`d2d1aebc`](https://github.com/wbkd/react-flow/commit/d2d1aebc0f7fea4183406e7d1915b7fcd6995f48) - refactor useUpdateNodeInternals: only call updateNodeDimensions once
 - [#3059](https://github.com/wbkd/react-flow/pull/3059) [`4374459e`](https://github.com/wbkd/react-flow/commit/4374459ef9fec797bbc0407231f09a1acacd245b) - fix useUpdateNodeInternals: update type
 - Updated dependencies [[`70ec97f7`](https://github.com/wbkd/react-flow/commit/70ec97f7daec6d5401215cae3edac04aea88a3ba), [`33915b88`](https://github.com/wbkd/react-flow/commit/33915b88c2ae701847870346b381f9cfa86c6459), [`d2d1aebc`](https://github.com/wbkd/react-flow/commit/d2d1aebc0f7fea4183406e7d1915b7fcd6995f48), [`4374459e`](https://github.com/wbkd/react-flow/commit/4374459ef9fec797bbc0407231f09a1acacd245b)]:
-  - @reactflow/core@11.7.2
-  - @reactflow/controls@11.1.13
-  - @reactflow/background@11.2.2
-  - @reactflow/minimap@11.5.2
-  - @reactflow/node-toolbar@1.2.1
+  - @reactflowfork/core@11.7.2
+  - @reactflowfork/controls@11.1.13
+  - @reactflowfork/background@11.2.2
+  - @reactflowfork/minimap@11.5.2
+  - @reactflowfork/node-toolbar@1.2.1
 
 ## 11.7.1
 
@@ -232,17 +232,17 @@ If you are using Zustand, you need to update to v4.4.1 and follow the migration 
 - [#3052](https://github.com/wbkd/react-flow/pull/3052) [`55e05cf7`](https://github.com/wbkd/react-flow/commit/55e05cf76ae21863691153e76dbd51d1eecd2c60) Thanks [@Noam3kCH](https://github.com/Noam3kCH)! - node-toolbar: add prop to align bar at start, center or end
 
 - Updated dependencies [[`cf7a7d3d`](https://github.com/wbkd/react-flow/commit/cf7a7d3dad1e73215a72a5dc72e21fd50208cdbb), [`07b975bb`](https://github.com/wbkd/react-flow/commit/07b975bbee3580249e36a19582213b250f78093c), [`55e05cf7`](https://github.com/wbkd/react-flow/commit/55e05cf76ae21863691153e76dbd51d1eecd2c60), [`c80d269b`](https://github.com/wbkd/react-flow/commit/c80d269b85a0054221f4639c328fc36a3befbe70), [`46526b4e`](https://github.com/wbkd/react-flow/commit/46526b4e02b83d74726701e3ba73d0be8cf80787), [`a3fa164c`](https://github.com/wbkd/react-flow/commit/a3fa164c34cc820c79bb031c9fd97b72a3546614)]:
-  - @reactflow/core@11.7.1
-  - @reactflow/node-toolbar@1.2.0
-  - @reactflow/controls@11.1.12
-  - @reactflow/background@11.2.1
-  - @reactflow/minimap@11.5.1
+  - @reactflowfork/core@11.7.1
+  - @reactflowfork/node-toolbar@1.2.0
+  - @reactflowfork/controls@11.1.12
+  - @reactflowfork/background@11.2.1
+  - @reactflowfork/minimap@11.5.1
 
 ## 11.7.0
 
 Most notable updates:
 
-- `@reactflow/node-resizer` is now part of this package. No need to install it separately anymore.
+- `@reactflowfork/node-resizer` is now part of this package. No need to install it separately anymore.
 - Handles: `isConnectableStart` and `isConnectableEnd` props to configure if you can start or end a connection at a certain handle
 - Edges: `updatable` option to enable updates for specific edges
 - MiniMap: `inversePan` and `zoomStep` props
@@ -253,7 +253,7 @@ Big thanks to [@Elringus](https://github.com/Elringus) and [@bcakmakoglu](https:
 
 ### Minor Changes
 
-- [#2964](https://github.com/wbkd/react-flow/pull/2964) [`2fb4c2c8`](https://github.com/wbkd/react-flow/commit/2fb4c2c82343751ff536da262de74bd9080321b4) - add @reactflow/node-resizer package
+- [#2964](https://github.com/wbkd/react-flow/pull/2964) [`2fb4c2c8`](https://github.com/wbkd/react-flow/commit/2fb4c2c82343751ff536da262de74bd9080321b4) - add @reactflowfork/node-resizer package
 - [#2960](https://github.com/wbkd/react-flow/pull/2960) Thanks [@bcakmakoglu](https://github.com/bcakmakoglu)! - edges: add `updatable` option
 - [#2958](https://github.com/wbkd/react-flow/pull/2958) [`4d97a0ed`](https://github.com/wbkd/react-flow/commit/4d97a0ed168ce643fc0c99fa6b47cf1296d66065) - handles: add `isConnectableStart` and `isConnectableEnd` props
 - [#2956](https://github.com/wbkd/react-flow/pull/2956) [`923a54c4`](https://github.com/wbkd/react-flow/commit/923a54c481b90954806202817ba844cfa7203a38) - add options for `useNodesInitialized`, ignore hidden nodes by default
@@ -269,11 +269,11 @@ Big thanks to [@Elringus](https://github.com/Elringus) and [@bcakmakoglu](https:
 ### Patch Changes
 
 - Updated dependencies [[`098eee3d`](https://github.com/wbkd/react-flow/commit/098eee3d41dabc870777b081796401ff13b5a776), [`fe8cac0a`](https://github.com/wbkd/react-flow/commit/fe8cac0adb359109e0e9eafe8b9261ba354076bb), [`4a4ca171`](https://github.com/wbkd/react-flow/commit/4a4ca171955f5c8d58b23e3ad48406f1a21dc402), [`c1448c2f`](https://github.com/wbkd/react-flow/commit/c1448c2f7415dd3b4b2c54e05404c5ab24e8978d), [`923a54c4`](https://github.com/wbkd/react-flow/commit/923a54c481b90954806202817ba844cfa7203a38), [`4d97a0ed`](https://github.com/wbkd/react-flow/commit/4d97a0ed168ce643fc0c99fa6b47cf1296d66065), [`771c7a5d`](https://github.com/wbkd/react-flow/commit/771c7a5d133ce96e9f7471394c15189e0657ce01), [`c22e1c28`](https://github.com/wbkd/react-flow/commit/c22e1c28c5555a638c2a8e82c3bfc986b3965d36)]:
-  - @reactflow/core@11.7.0
-  - @reactflow/minimap@11.5.0
-  - @reactflow/background@11.2.0
-  - @reactflow/controls@11.1.11
-  - @reactflow/node-toolbar@1.1.11
+  - @reactflowfork/core@11.7.0
+  - @reactflowfork/minimap@11.5.0
+  - @reactflowfork/background@11.2.0
+  - @reactflowfork/controls@11.1.11
+  - @reactflowfork/node-toolbar@1.1.11
 
 ## 11.6.1
 
@@ -299,11 +299,11 @@ This release introduces a new `isValidConnection` prop for the ReactFlow compone
 - [#2893](https://github.com/wbkd/react-flow/pull/2893) [`8f080bd5`](https://github.com/wbkd/react-flow/commit/8f080bd5e0e7e6c71f51eee9c9f2bc4b25182861) - fix: check if handle is connectable
 
 - Updated dependencies [[`3d5764ca`](https://github.com/wbkd/react-flow/commit/3d5764cac6548984a30cbf85899024e62fd69425), [`4a30185a`](https://github.com/wbkd/react-flow/commit/4a30185a12899691ff61259f0db84bc5494cb573), [`83fc4675`](https://github.com/wbkd/react-flow/commit/83fc467545527729633e817dbccfe59d0040da4b), [`b1190837`](https://github.com/wbkd/react-flow/commit/b11908370bc438ca8d4179497cd4eb1f8c656798), [`5fabd272`](https://github.com/wbkd/react-flow/commit/5fabd2720f6367f75f79a45822d8f675a3b8e1cf), [`8f080bd5`](https://github.com/wbkd/react-flow/commit/8f080bd5e0e7e6c71f51eee9c9f2bc4b25182861), [`b8886514`](https://github.com/wbkd/react-flow/commit/b88865140c72fa7e92a883498768000cb2cc96a7), [`16bf89f2`](https://github.com/wbkd/react-flow/commit/16bf89f2b7bbf8449c00d0e2c07c19c3ff6d2533)]:
-  - @reactflow/background@11.1.9
-  - @reactflow/controls@11.1.9
-  - @reactflow/core@11.6.0
-  - @reactflow/minimap@11.4.0
-  - @reactflow/node-toolbar@1.1.9
+  - @reactflowfork/background@11.1.9
+  - @reactflowfork/controls@11.1.9
+  - @reactflowfork/core@11.6.0
+  - @reactflowfork/minimap@11.4.0
+  - @reactflowfork/node-toolbar@1.1.9
 
 ## 11.5.6
 
@@ -317,11 +317,11 @@ This release introduces a new `isValidConnection` prop for the ReactFlow compone
 - [#2839](https://github.com/wbkd/react-flow/pull/2839) [`72216ff6`](https://github.com/wbkd/react-flow/commit/72216ff62014acd2d73999053c72bd7aeed351f6) - fix PropsWithChildren: pass default generic for v17 types
 
 - Updated dependencies [[`72216ff6`](https://github.com/wbkd/react-flow/commit/72216ff62014acd2d73999053c72bd7aeed351f6), [`959b1114`](https://github.com/wbkd/react-flow/commit/959b111448bba4686040473e46988be9e7befbe6), [`0d259b02`](https://github.com/wbkd/react-flow/commit/0d259b028558aab650546f3371a85f3bce45252f), [`f3de9335`](https://github.com/wbkd/react-flow/commit/f3de9335af6cd96cd77dc77f24a944eef85384e5), [`23424ea6`](https://github.com/wbkd/react-flow/commit/23424ea6750f092210f83df17a00c89adb910d96), [`021f5a92`](https://github.com/wbkd/react-flow/commit/021f5a9210f47a968e50446cd2f9dae1f97880a4)]:
-  - @reactflow/core@11.5.5
-  - @reactflow/background@11.1.8
-  - @reactflow/controls@11.1.8
-  - @reactflow/minimap@11.3.8
-  - @reactflow/node-toolbar@1.1.8
+  - @reactflowfork/core@11.5.5
+  - @reactflowfork/background@11.1.8
+  - @reactflowfork/controls@11.1.8
+  - @reactflowfork/minimap@11.3.8
+  - @reactflowfork/node-toolbar@1.1.8
 
 ## 11.5.5
 
@@ -330,11 +330,11 @@ This release introduces a new `isValidConnection` prop for the ReactFlow compone
 - [`383a074a`](https://github.com/wbkd/react-flow/commit/383a074aeae6dbec8437fa08c7c8d8240838a84e) Thanks [@bcakmakoglu](https://github.com/bcakmakoglu)! - Check if prevClosestHandle exists in onPointerUp. Fixes connections getting stuck on last handle and connecting, even when out of connectionRadius
 
 - Updated dependencies [[`383a074a`](https://github.com/wbkd/react-flow/commit/383a074aeae6dbec8437fa08c7c8d8240838a84e)]:
-  - @reactflow/core@11.5.4
-  - @reactflow/background@11.1.7
-  - @reactflow/controls@11.1.7
-  - @reactflow/minimap@11.3.7
-  - @reactflow/node-toolbar@1.1.7
+  - @reactflowfork/core@11.5.4
+  - @reactflowfork/background@11.1.7
+  - @reactflowfork/controls@11.1.7
+  - @reactflowfork/minimap@11.3.7
+  - @reactflowfork/node-toolbar@1.1.7
 
 ## 11.5.4
 
@@ -347,11 +347,11 @@ This release fixes some issues with the newly introduced connection radius featu
 - [#2801](https://github.com/wbkd/react-flow/pull/2801) [`3b6348a8`](https://github.com/wbkd/react-flow/commit/3b6348a8d1573afb39576327318bc172e33393c2) - fix(ios): connection error + dont snap invalid connection lines, check handle and connection radius
 
 - Updated dependencies [[`be8097ac`](https://github.com/wbkd/react-flow/commit/be8097acadca3054c3b236ce4296fc516010ef8c), [`1527795d`](https://github.com/wbkd/react-flow/commit/1527795d18c3af38c8ec7059436ea0fbf6c27bbd), [`3b6348a8`](https://github.com/wbkd/react-flow/commit/3b6348a8d1573afb39576327318bc172e33393c2)]:
-  - @reactflow/core@11.5.3
-  - @reactflow/background@11.1.6
-  - @reactflow/controls@11.1.6
-  - @reactflow/minimap@11.3.6
-  - @reactflow/node-toolbar@1.1.6
+  - @reactflowfork/core@11.5.3
+  - @reactflowfork/background@11.1.6
+  - @reactflowfork/controls@11.1.6
+  - @reactflowfork/minimap@11.3.6
+  - @reactflowfork/node-toolbar@1.1.6
 
 ## 11.5.3
 
@@ -360,11 +360,11 @@ This release fixes some issues with the newly introduced connection radius featu
 - [#2792](https://github.com/wbkd/react-flow/pull/2792) [`d8c679b4`](https://github.com/wbkd/react-flow/commit/d8c679b4c90c5b57d4b51e4aaa988243d6eaff5a) - Accept React 17 types as dev dependency
 
 - Updated dependencies [[`d8c679b4`](https://github.com/wbkd/react-flow/commit/d8c679b4c90c5b57d4b51e4aaa988243d6eaff5a)]:
-  - @reactflow/background@11.1.5
-  - @reactflow/controls@11.1.5
-  - @reactflow/core@11.5.2
-  - @reactflow/minimap@11.3.5
-  - @reactflow/node-toolbar@1.1.5
+  - @reactflowfork/background@11.1.5
+  - @reactflowfork/controls@11.1.5
+  - @reactflowfork/core@11.5.2
+  - @reactflowfork/minimap@11.3.5
+  - @reactflowfork/node-toolbar@1.1.5
 
 ## 11.5.2
 
@@ -373,11 +373,11 @@ This release fixes some issues with the newly introduced connection radius featu
 - [#2783](https://github.com/wbkd/react-flow/pull/2783) [`71153534`](https://github.com/wbkd/react-flow/commit/7115353418ebc7f7c81ab0e861200972bbf7dbd5) - connections: check handle below mouse before using connection radius
 
 - Updated dependencies [[`71153534`](https://github.com/wbkd/react-flow/commit/7115353418ebc7f7c81ab0e861200972bbf7dbd5)]:
-  - @reactflow/core@11.5.1
-  - @reactflow/background@11.1.4
-  - @reactflow/controls@11.1.4
-  - @reactflow/minimap@11.3.4
-  - @reactflow/node-toolbar@1.1.4
+  - @reactflowfork/core@11.5.1
+  - @reactflowfork/background@11.1.4
+  - @reactflowfork/controls@11.1.4
+  - @reactflowfork/minimap@11.3.4
+  - @reactflowfork/node-toolbar@1.1.4
 
 ## 11.5.1
 
@@ -412,10 +412,10 @@ This makes it easier to work with different custom nodes and data types.
 - [#2620](https://github.com/wbkd/react-flow/pull/2620) - Thanks [RichSchulz](https://github.com/RichSchulz)! - Types: improve typing for node type
 
 - Updated dependencies [[`e96309b6`](https://github.com/wbkd/react-flow/commit/e96309b6a57b1071faeebf7b0547fef7fd418694), [`85003b01`](https://github.com/wbkd/react-flow/commit/85003b01add71ea852bd5b0d2f1e7496050a6b52), [`4c516882`](https://github.com/wbkd/react-flow/commit/4c516882d2bbf426c1832a53ad40763cc1abef92)]:
-  - @reactflow/core@11.5.0
-  - @reactflow/background@11.1.3
-  - @reactflow/controls@11.1.3
-  - @reactflow/minimap@11.3.3
+  - @reactflowfork/core@11.5.0
+  - @reactflowfork/background@11.1.3
+  - @reactflowfork/controls@11.1.3
+  - @reactflowfork/minimap@11.3.3
 
 ## 11.4.2
 
@@ -424,11 +424,11 @@ This makes it easier to work with different custom nodes and data types.
 - [#2741](https://github.com/wbkd/react-flow/pull/2741) [`e2aff6c1`](https://github.com/wbkd/react-flow/commit/e2aff6c1e4ce54b57b724b2624367ee5fefd1c39) - chore(dependencies): update and cleanup
 
 - Updated dependencies [[`e34a3072`](https://github.com/wbkd/react-flow/commit/e34a30726dc55184f59adc4f16ca5215a7c42805), [`e2aff6c1`](https://github.com/wbkd/react-flow/commit/e2aff6c1e4ce54b57b724b2624367ee5fefd1c39)]:
-  - @reactflow/background@11.1.2
-  - @reactflow/core@11.4.2
-  - @reactflow/minimap@11.3.2
-  - @reactflow/node-toolbar@1.1.2
-  - @reactflow/controls@11.1.2
+  - @reactflowfork/background@11.1.2
+  - @reactflowfork/core@11.4.2
+  - @reactflowfork/minimap@11.3.2
+  - @reactflowfork/node-toolbar@1.1.2
+  - @reactflowfork/controls@11.1.2
 
 ## 11.4.1
 
@@ -438,11 +438,11 @@ This makes it easier to work with different custom nodes and data types.
 - [#2740](https://github.com/wbkd/react-flow/pull/2740) [`d91e619a`](https://github.com/wbkd/react-flow/commit/d91e619a70a95db99a621ede59bc05b5a7766086) Thanks [@michaelspiss](https://github.com/michaelspiss)! - EdgeRenderer: check all handles for connection mode loose
 
 - Updated dependencies [[`82988485`](https://github.com/wbkd/react-flow/commit/82988485b730a9e32acbdae1ddcc81b33ddccaba), [`d91e619a`](https://github.com/wbkd/react-flow/commit/d91e619a70a95db99a621ede59bc05b5a7766086)]:
-  - @reactflow/core@11.4.1
-  - @reactflow/background@11.1.1
-  - @reactflow/controls@11.1.1
-  - @reactflow/minimap@11.3.1
-  - @reactflow/node-toolbar@1.1.1
+  - @reactflowfork/core@11.4.1
+  - @reactflowfork/background@11.1.1
+  - @reactflowfork/controls@11.1.1
+  - @reactflowfork/minimap@11.3.1
+  - @reactflowfork/node-toolbar@1.1.1
 
 ## 11.4.0
 
@@ -480,11 +480,11 @@ Thanks to @jackfishwick who helped a lot with the new panning and selection opti
 - [#2657](https://github.com/wbkd/react-flow/pull/2657) [`23afb3ab`](https://github.com/wbkd/react-flow/commit/23afb3abebdb42fad284f68bec164afac609563c) - Only trigger drag event when change happened
 
 - Updated dependencies [[`ab2ff374`](https://github.com/wbkd/react-flow/commit/ab2ff3740618da48bd4350597e816c397f3d78ff), [`50032c3d`](https://github.com/wbkd/react-flow/commit/50032c3d953bd819d0afe48e4b61f77f987cc8d0), [`baa8689e`](https://github.com/wbkd/react-flow/commit/baa8689ef629d22da4cbbef955e0c83d21df0493), [`4244bae2`](https://github.com/wbkd/react-flow/commit/4244bae25a36cb4904dc1fbba26e1c4d5d463cb9), [`7ef29108`](https://github.com/wbkd/react-flow/commit/7ef2910808aaaee029894363d52efc0c378a7654), [`23afb3ab`](https://github.com/wbkd/react-flow/commit/23afb3abebdb42fad284f68bec164afac609563c)]:
-  - @reactflow/core@11.4.0
-  - @reactflow/minimap@11.3.0
-  - @reactflow/node-toolbar@1.1.0
-  - @reactflow/background@11.1.0
-  - @reactflow/controls@11.1.0
+  - @reactflowfork/core@11.4.0
+  - @reactflowfork/minimap@11.3.0
+  - @reactflowfork/node-toolbar@1.1.0
+  - @reactflowfork/background@11.1.0
+  - @reactflowfork/controls@11.1.0
 
 ## 11.4.0-next.1
 
@@ -498,11 +498,11 @@ Thanks to @jackfishwick who helped a lot with the new panning and selection opti
 ### Patch Changes
 
 - Updated dependencies []:
-  - @reactflow/background@11.1.0-next.1
-  - @reactflow/controls@11.1.0-next.1
-  - @reactflow/core@11.4.0-next.1
-  - @reactflow/minimap@11.3.0-next.1
-  - @reactflow/node-toolbar@1.1.0-next.1
+  - @reactflowfork/background@11.1.0-next.1
+  - @reactflowfork/controls@11.1.0-next.1
+  - @reactflowfork/core@11.4.0-next.1
+  - @reactflowfork/minimap@11.3.0-next.1
+  - @reactflowfork/node-toolbar@1.1.0-next.1
 
 ## 11.4.0-next.0
 
@@ -527,11 +527,11 @@ Thanks to @jackfishwick who helped a lot with the new panning and selection opti
 - [#2657](https://github.com/wbkd/react-flow/pull/2657) [`23afb3ab`](https://github.com/wbkd/react-flow/commit/23afb3abebdb42fad284f68bec164afac609563c) Thanks [@moklick](https://github.com/moklick)! - Only trigger drag event when change happened
 
 - Updated dependencies [[`50032c3d`](https://github.com/wbkd/react-flow/commit/50032c3d953bd819d0afe48e4b61f77f987cc8d0), [`baa8689e`](https://github.com/wbkd/react-flow/commit/baa8689ef629d22da4cbbef955e0c83d21df0493), [`4244bae2`](https://github.com/wbkd/react-flow/commit/4244bae25a36cb4904dc1fbba26e1c4d5d463cb9), [`23afb3ab`](https://github.com/wbkd/react-flow/commit/23afb3abebdb42fad284f68bec164afac609563c)]:
-  - @reactflow/core@11.4.0-next.0
-  - @reactflow/minimap@11.3.0-next.0
-  - @reactflow/node-toolbar@1.1.0-next.0
-  - @reactflow/background@11.0.8-next.0
-  - @reactflow/controls@11.0.8-next.0
+  - @reactflowfork/core@11.4.0-next.0
+  - @reactflowfork/minimap@11.3.0-next.0
+  - @reactflowfork/node-toolbar@1.1.0-next.0
+  - @reactflowfork/background@11.0.8-next.0
+  - @reactflowfork/controls@11.0.8-next.0
 
 ## 11.3.3
 
@@ -540,11 +540,11 @@ In this update we did some changes so that we could implement the new [`<NodeRes
 ### Patch Changes
 
 - Updated dependencies [[`e6b5d90f`](https://github.com/wbkd/react-flow/commit/e6b5d90f61c8ee60e817bba232a162cae2ab3e2a), [`6ee44e07`](https://github.com/wbkd/react-flow/commit/6ee44e076eaa6908d07578a757a5187642b732ae), [`d29c401d`](https://github.com/wbkd/react-flow/commit/d29c401d598dbf2dcd5609b7adb8d029906a6f18), [`aa69c207`](https://github.com/wbkd/react-flow/commit/aa69c20765e6978f4f9c8cc63ed7110dbf6d9d9d), [`d29c401d`](https://github.com/wbkd/react-flow/commit/d29c401d598dbf2dcd5609b7adb8d029906a6f18), [`0df02f35`](https://github.com/wbkd/react-flow/commit/0df02f35f8d6c54dae36af18278feadc77acb2d6)]:
-  - @reactflow/core@11.3.2
-  - @reactflow/minimap@11.2.3
-  - @reactflow/node-toolbar@1.0.2
-  - @reactflow/background@11.0.7
-  - @reactflow/controls@11.0.7
+  - @reactflowfork/core@11.3.2
+  - @reactflowfork/minimap@11.2.3
+  - @reactflowfork/node-toolbar@1.0.2
+  - @reactflowfork/background@11.0.7
+  - @reactflowfork/controls@11.0.7
 
 ## 11.3.2
 
@@ -553,7 +553,7 @@ In this update we did some changes so that we could implement the new [`<NodeRes
 - [`7ece618d`](https://github.com/wbkd/react-flow/commit/7ece618d94b76183c1ecd45b16f6ab168168351b) Thanks [@lounsbrough](https://github.com/lounsbrough)! - Fix minimap node position
 
 - Updated dependencies [[`7ece618d`](https://github.com/wbkd/react-flow/commit/7ece618d94b76183c1ecd45b16f6ab168168351b)]:
-  - @reactflow/minimap@11.2.2
+  - @reactflowfork/minimap@11.2.2
 
 ## 11.3.1
 
@@ -565,11 +565,11 @@ In this update we did some changes so that we could implement the new [`<NodeRes
 - [#2594](https://github.com/wbkd/react-flow/pull/2594) [`ec94d9ec`](https://github.com/wbkd/react-flow/commit/ec94d9ecdc964d6d66c04e9242f195614bbfdbbe) Thanks [@chrtze](https://github.com/chrtze)! - Allow multiple node ids to be passed for enabling multi selection toolbars
 
 - Updated dependencies [[`c828bfda`](https://github.com/wbkd/react-flow/commit/c828bfda0a8c4774bc43588640c7cca0cfdcb3f4), [`b0302ce4`](https://github.com/wbkd/react-flow/commit/b0302ce4261a992bee841bae84af347d03be690f), [`b2c72813`](https://github.com/wbkd/react-flow/commit/b2c728137d1b53e38883f044fa447585c377a6af), [`ec94d9ec`](https://github.com/wbkd/react-flow/commit/ec94d9ecdc964d6d66c04e9242f195614bbfdbbe)]:
-  - @reactflow/core@11.3.1
-  - @reactflow/minimap@11.2.1
-  - @reactflow/node-toolbar@1.0.1
-  - @reactflow/background@11.0.6
-  - @reactflow/controls@11.0.6
+  - @reactflowfork/core@11.3.1
+  - @reactflowfork/minimap@11.2.1
+  - @reactflowfork/node-toolbar@1.0.1
+  - @reactflowfork/background@11.0.6
+  - @reactflowfork/controls@11.0.6
 
 ## 11.3.0
 
@@ -587,11 +587,11 @@ In this update we did some changes so that we could implement the new [`<NodeRes
 - [#2558](https://github.com/wbkd/react-flow/pull/2558) [`2a1c7db6`](https://github.com/wbkd/react-flow/commit/2a1c7db6b27ac0f4f81dcef2d593f4753c4321c7) Thanks [@moklick](https://github.com/moklick)! - Core: Handle multiple instances on a page for EdgeLabelRenderer
 
 - Updated dependencies [[`d745aa33`](https://github.com/wbkd/react-flow/commit/d745aa33fcd1333e12929c862f9a3d6de53f7179), [`92cf497e`](https://github.com/wbkd/react-flow/commit/92cf497eb72f21af592a53f5af9770c9f1e6d940), [`98116d43`](https://github.com/wbkd/react-flow/commit/98116d431f9fcdcc9b23a5b606a94ec0740b64cd), [`8f63f751`](https://github.com/wbkd/react-flow/commit/8f63f751e302d3c935865760d2134350c31ab93f), [`a39224b3`](https://github.com/wbkd/react-flow/commit/a39224b3a80afbdb83fc4490dd5f4f2be23cd4dd), [`5e8b67dd`](https://github.com/wbkd/react-flow/commit/5e8b67dd41f9bb60dcd7f5d14cc34b42c970e967), [`2a1c7db6`](https://github.com/wbkd/react-flow/commit/2a1c7db6b27ac0f4f81dcef2d593f4753c4321c7), [`c793433c`](https://github.com/wbkd/react-flow/commit/c793433cafc214281ae97c9a32f5ac2fe453c34f)]:
-  - @reactflow/minimap@11.2.0
-  - @reactflow/core@11.3.0
-  - @reactflow/node-toolbar@1.0.0
-  - @reactflow/background@11.0.5
-  - @reactflow/controls@11.0.5
+  - @reactflowfork/minimap@11.2.0
+  - @reactflowfork/core@11.3.0
+  - @reactflowfork/node-toolbar@1.0.0
+  - @reactflowfork/background@11.0.5
+  - @reactflowfork/controls@11.0.5
 
 ## 11.2.0
 
@@ -607,10 +607,10 @@ In this update we did some changes so that we could implement the new [`<NodeRes
 - [#2538](https://github.com/wbkd/react-flow/pull/2538) [`740659c0`](https://github.com/wbkd/react-flow/commit/740659c0e788c7572d4a1e64e1d33d60712233fc) Thanks [@neo](https://github.com/neo)! - Refactor: put React Flow in isolated stacking context
 
 - Updated dependencies [[`740659c0`](https://github.com/wbkd/react-flow/commit/740659c0e788c7572d4a1e64e1d33d60712233fc), [`7902a3ce`](https://github.com/wbkd/react-flow/commit/7902a3ce3188426d5cd07cf0943a68f679e67948), [`b25d499e`](https://github.com/wbkd/react-flow/commit/b25d499ec05b5c6f21ac552d03650eb37433552e), [`4fc1253e`](https://github.com/wbkd/react-flow/commit/4fc1253eadf9b7dd392d8dc2348f44fa8d08f931), [`8ba4dd5d`](https://github.com/wbkd/react-flow/commit/8ba4dd5d1d4b2e6f107c148de62aec0b688d8b21)]:
-  - @reactflow/core@11.2.0
-  - @reactflow/minimap@11.1.0
-  - @reactflow/background@11.0.4
-  - @reactflow/controls@11.0.4
+  - @reactflowfork/core@11.2.0
+  - @reactflowfork/minimap@11.1.0
+  - @reactflowfork/background@11.0.4
+  - @reactflowfork/controls@11.0.4
 
 ## 11.1.2
 
@@ -624,10 +624,10 @@ Housekeeping release with some fixes and some cleanups for the types.
 - always render nodes when dragging=true
 - don't apply animations to helper edge
 - Updated dependencies:
-  - @reactflow/core@11.1.2
-  - @reactflow/background@11.0.3
-  - @reactflow/controls@11.0.3
-  - @reactflow/minimap@11.0.3
+  - @reactflowfork/core@11.1.2
+  - @reactflowfork/background@11.0.3
+  - @reactflowfork/controls@11.0.3
+  - @reactflowfork/minimap@11.0.3
 
 ## 11.1.1
 
@@ -639,10 +639,10 @@ Housekeeping release with some fixes and some cleanups for the types.
 - [`5d35094`](https://github.com/wbkd/react-flow/commit/5d350942d33ded626b3387206f0b0dee368efdfb) Thanks [@neo](https://github.com/neo)! - Add css files as sideEffects
 
 - Updated dependencies:
-  - @reactflow/background@11.0.2
-  - @reactflow/core@11.1.1
-  - @reactflow/controls@11.0.2
-  - @reactflow/minimap@11.0.2
+  - @reactflowfork/background@11.0.2
+  - @reactflowfork/core@11.1.1
+  - @reactflowfork/controls@11.0.2
+  - @reactflowfork/minimap@11.0.2
 
 ## 11.1.0
 
@@ -655,10 +655,10 @@ Housekeeping release with some fixes and some cleanups for the types.
 - [`d00faa6b`](https://github.com/wbkd/react-flow/commit/d00faa6b3e77388bfd655d4c02e9a5375bc515e4) Thanks [@moklick](https://github.com/moklick)! - Make nopan class name overwritable with class name option
 
 - Updated dependencies [[`def11008`](https://github.com/wbkd/react-flow/commit/def11008d88749fec40e6fcba8bc41eea2511bab), [`def11008`](https://github.com/wbkd/react-flow/commit/def11008d88749fec40e6fcba8bc41eea2511bab), [`d00faa6b`](https://github.com/wbkd/react-flow/commit/d00faa6b3e77388bfd655d4c02e9a5375bc515e4)]:
-  - @reactflow/background@11.0.1
-  - @reactflow/core@11.1.0
-  - @reactflow/controls@11.0.1
-  - @reactflow/minimap@11.0.1
+  - @reactflowfork/background@11.0.1
+  - @reactflowfork/core@11.1.0
+  - @reactflowfork/controls@11.0.1
+  - @reactflowfork/minimap@11.0.1
 
 ## 11.0.0
 
@@ -688,15 +688,15 @@ From now on you can install it via `npm install reactflow`.
 - **Pan over nodes** when they are not draggable (`draggable=false` or `nodesDraggable` false)
 - **[`<BaseEdge />`](/docs/api/edges/base-edge) component** that makes it easier to build custom edges
 - **[Separately installable packages](/docs/overview/packages/)**
-  - @reactflow/core
-  - @reactflow/background
-  - @reactflow/controls
-  - @reactflow/minimap
+  - @reactflowfork/core
+  - @reactflowfork/background
+  - @reactflowfork/controls
+  - @reactflowfork/minimap
 
 ### Patch Changes
 
 - Updated dependencies:
-  - @reactflow/background@11.0.0
-  - @reactflow/controls@11.0.0
-  - @reactflow/core@11.0.0
-  - @reactflow/minimap@11.0.0
+  - @reactflowfork/background@11.0.0
+  - @reactflowfork/controls@11.0.0
+  - @reactflowfork/core@11.0.0
+  - @reactflowfork/minimap@11.0.0

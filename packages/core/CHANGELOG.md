@@ -1,4 +1,4 @@
-# @reactflow/core
+# @reactflowfork/core
 
 ## 11.9.4
 
@@ -413,7 +413,7 @@ In this update we did some changes so that we could implement the new [`<NodeRes
 - **Pan over nodes** when they are not draggable (`draggable=false` or `nodesDraggable` false)
 - **[`<BaseEdge />`](/docs/api/edges/base-edge) component** that makes it easier to build custom edges
 - **[Separately installable packages](/docs/overview/packages/)**
-  - @reactflow/core
-  - @reactflow/background
-  - @reactflow/controls
-  - @reactflow/minimap
+  - @reactflowfork/core
+  - @reactflowfork/background
+  - @reactflowfork/controls
+  - @reactflowfork/minimap

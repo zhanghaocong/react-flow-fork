@@ -1,6 +1,6 @@
 {
-  "name": "@reactflow/minimap",
-  "version": "11.7.4",
+  "name": "@reactflowfork/minimap",
+  "version": "12.3.0",
   "description": "Minimap component for React Flow.",
   "keywords": [
     "react",
@@ -46,7 +46,7 @@
     "typecheck": "tsc --noEmit"
   },
   "dependencies": {
-    "@reactflow/core": "workspace:*",
+    "@reactflowfork/core": "workspace:*",
     "@types/d3-selection": "^3.0.3",
     "@types/d3-zoom": "^3.0.1",
     "classcat": "^5.0.3",

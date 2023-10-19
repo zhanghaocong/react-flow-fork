@@ -1,6 +1,6 @@
 {
   "extends": "@reactflow/tsconfig/react.json",
-  "display": "@reactflow/minimap",
+  "display": "@reactflowfork/minimap",
   "include": ["**/*.ts", "**/*.tsx"],
   "exclude": ["node_modules", "dist"]
 }

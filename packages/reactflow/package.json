@@ -1,6 +1,6 @@
 {
-  "name": "reactflow",
-  "version": "11.9.4",
+  "name": "reactflowfork",
+  "version": "12.3.0",
   "description": "A highly customizable React library for building node-based editors and interactive flow charts",
   "keywords": [
     "react",
@@ -44,12 +44,12 @@
     "typecheck": "tsc --noEmit"
   },
   "dependencies": {
-    "@reactflow/background": "workspace:*",
-    "@reactflow/controls": "workspace:*",
-    "@reactflow/core": "workspace:*",
-    "@reactflow/minimap": "workspace:*",
-    "@reactflow/node-resizer": "workspace:*",
-    "@reactflow/node-toolbar": "workspace:*"
+    "@reactflowfork/background": "workspace:*",
+    "@reactflowfork/controls": "workspace:*",
+    "@reactflowfork/core": "workspace:*",
+    "@reactflowfork/minimap": "workspace:*",
+    "@reactflowfork/node-resizer": "workspace:*",
+    "@reactflowfork/node-toolbar": "workspace:*"
   },
   "peerDependencies": {
     "react": ">=17",
@@ -66,11 +66,11 @@
   },
   "rollup": {
     "globals": {
-      "@reactflow/background": "ReactFlowBackground",
-      "@reactflow/controls": "ReactFlowControls",
-      "@reactflow/core": "ReactFlowCore",
-      "@reactflow/minimap": "ReactFlowMinimap",
-      "@reactflow/node-toolbar": "ReactFlowNodeToolbar"
+      "@reactflowfork/background": "ReactFlowBackground",
+      "@reactflowfork/controls": "ReactFlowControls",
+      "@reactflowfork/core": "ReactFlowCore",
+      "@reactflowfork/minimap": "ReactFlowMinimap",
+      "@reactflowfork/node-toolbar": "ReactFlowNodeToolbar"
     },
     "name": "ReactFlow"
   }

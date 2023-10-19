@@ -1,4 +1,4 @@
-import { Position } from '@reactflow/core';
+import { Position } from '@reactflowfork/core';
 import type { HTMLAttributes } from 'react';
 
 export type NodeToolbarProps = HTMLAttributes<HTMLDivElement> & {

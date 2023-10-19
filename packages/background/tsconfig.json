@@ -1,6 +1,6 @@
 {
   "extends": "@reactflow/tsconfig/react.json",
-  "display": "@reactflow/background",
+  "display": "@reactflowfork/background",
   "include": ["src"],
   "exclude": ["node_modules", "dist"]
 }

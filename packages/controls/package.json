@@ -1,6 +1,6 @@
 {
-  "name": "@reactflow/controls",
-  "version": "11.2.4",
+  "name": "@reactflowfork/controls",
+  "version": "12.3.0",
   "description": "Component to control the viewport of a React Flow instance",
   "keywords": [
     "react",
@@ -46,7 +46,7 @@
     "access": "public"
   },
   "dependencies": {
-    "@reactflow/core": "workspace:*",
+    "@reactflowfork/core": "workspace:*",
     "classcat": "^5.0.3",
     "zustand": "^4.4.1"
   },

@@ -1,6 +1,6 @@
 import React, { memo, useRef } from 'react';
 import cc from 'classcat';
-import { useStore, ReactFlowState } from '@reactflow/core';
+import { useStore, ReactFlowState } from '@reactflowfork/core';
 import { shallow } from 'zustand/shallow';
 
 import { BackgroundProps, BackgroundVariant } from './types';

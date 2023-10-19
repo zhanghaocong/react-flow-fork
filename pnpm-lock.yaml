@@ -80,7 +80,7 @@ importers:
 
   examples/vite-app:
     dependencies:
-      '@reactflow/node-resizer':
+      '@reactflowfork/node-resizer':
         specifier: workspace:*
         version: link:../../packages/node-resizer
       classcat:
@@ -141,7 +141,7 @@ importers:
 
   packages/background:
     dependencies:
-      '@reactflow/core':
+      '@reactflowfork/core':
         specifier: workspace:*
         version: link:../core
       classcat:
@@ -178,7 +178,7 @@ importers:
 
   packages/controls:
     dependencies:
-      '@reactflow/core':
+      '@reactflowfork/core':
         specifier: workspace:*
         version: link:../core
       classcat:
@@ -273,7 +273,7 @@ importers:
 
   packages/minimap:
     dependencies:
-      '@reactflow/core':
+      '@reactflowfork/core':
         specifier: workspace:*
         version: link:../core
       '@types/d3-selection':
@@ -322,8 +322,8 @@ importers:
 
   packages/node-resizer:
     dependencies:
-      '@reactflow/core':
-        specifier: workspace:^11.6.0
+      '@reactflowfork/core':
+        specifier: workspace:*
         version: link:../core
       classcat:
         specifier: ^5.0.4
@@ -374,7 +374,7 @@ importers:
 
   packages/node-toolbar:
     dependencies:
-      '@reactflow/core':
+      '@reactflowfork/core':
         specifier: workspace:*
         version: link:../core
       classcat:
@@ -414,22 +414,22 @@ importers:
 
   packages/reactflow:
     dependencies:
-      '@reactflow/background':
+      '@reactflowfork/background':
         specifier: workspace:*
         version: link:../background
-      '@reactflow/controls':
+      '@reactflowfork/controls':
         specifier: workspace:*
         version: link:../controls
-      '@reactflow/core':
+      '@reactflowfork/core':
         specifier: workspace:*
         version: link:../core
-      '@reactflow/minimap':
+      '@reactflowfork/minimap':
         specifier: workspace:*
         version: link:../minimap
-      '@reactflow/node-resizer':
+      '@reactflowfork/node-resizer':
         specifier: workspace:*
         version: link:../node-resizer
-      '@reactflow/node-toolbar':
+      '@reactflowfork/node-toolbar':
         specifier: workspace:*
         version: link:../node-toolbar
       react-dom:
@@ -1993,6 +1993,7 @@ packages:
     resolution: {integrity: sha512-CK2fnrQlIgKlCV3N2kM+Gznb5USlwA1KFX3rJVHmgVk6NJxFPuQ86pAcvKnu37IA4BGlSRz7sEE1lHL1aLZ/eQ==, registry: https://registry.npmjs.com/, tarball: https://registry.npmjs.org/@types/node/-/node-14.18.28.tgz}
     name: '@types/node'
     version: 14.18.28
+    requiresBuild: true
     dev: true
     optional: true
 

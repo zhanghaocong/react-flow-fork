@@ -1,8 +1,8 @@
-export * from '@reactflow/core';
-export * from '@reactflow/minimap';
-export * from '@reactflow/controls';
-export * from '@reactflow/background';
-export * from '@reactflow/node-toolbar';
-export * from '@reactflow/node-resizer';
+export * from '@reactflowfork/core';
+export * from '@reactflowfork/minimap';
+export * from '@reactflowfork/controls';
+export * from '@reactflowfork/background';
+export * from '@reactflowfork/node-toolbar';
+export * from '@reactflowfork/node-resizer';
 
-export { ReactFlow as default } from '@reactflow/core';
+export { ReactFlow as default } from '@reactflowfork/core';

@@ -1,6 +1,6 @@
 {
-  "name": "@reactflow/node-resizer",
-  "version": "2.2.4",
+  "name": "@reactflowfork/node-resizer",
+  "version": "3.3.0",
   "description": "A helper component for resizing nodes.",
   "keywords": [
     "react",
@@ -46,7 +46,7 @@
     "typecheck": "tsc --noEmit"
   },
   "dependencies": {
-    "@reactflow/core": "workspace:*",
+    "@reactflowfork/core": "workspace:*",
     "classcat": "^5.0.4",
     "d3-drag": "^3.0.0",
     "d3-selection": "^3.0.0",
