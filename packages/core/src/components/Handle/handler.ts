@@ -131,16 +131,17 @@ export function handlePointerDown({
     isValid = validHandleResult.isValid;
 
     setState({
-      connectionPosition:
-        closestHandle && isValid
-          ? rendererPointToPoint(
-              {
-                x: closestHandle.x,
-                y: closestHandle.y,
-              },
-              transform
-            )
-          : connectionPosition,
+      connectionPosition,
+      // connectionPosition:
+      //   closestHandle && isValid
+      //     ? rendererPointToPoint(
+      //         {
+      //           x: closestHandle.x,
+      //           y: closestHandle.y,
+      //         },
+      //         transform
+      //       )
+      //     : connectionPosition,
       connectionStatus: getConnectionStatus(!!closestHandle, isValid),
       connectionEndHandle: validHandleResult.endHandle,
     });

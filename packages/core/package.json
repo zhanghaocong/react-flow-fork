@@ -1,6 +1,6 @@
 {
   "name": "@reactflowfork/core",
-  "version": "12.3.0",
+  "version": "12.6.0",
   "description": "Core components and util functions of React Flow.",
   "keywords": [
     "react",
