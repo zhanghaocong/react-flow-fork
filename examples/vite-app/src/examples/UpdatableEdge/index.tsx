@@ -130,6 +130,8 @@ const UpdatableEdge = () => {
       onConnect={onConnect}
       onEdgeUpdateStart={onEdgeUpdateStart}
       onEdgeUpdateEnd={onEdgeUpdateEnd}
+      edgeUpdaterRadius={ 8 }
+      edgeUpdaterOffset={ -3 }
     >
       <Controls />
     </ReactFlow>

@@ -47,6 +47,7 @@ export default (EdgeComponent: ComponentType<EdgeProps>) => {
     onMouseMove,
     onMouseLeave,
     edgeUpdaterRadius,
+    edgeUpdaterOffset,
     onEdgeUpdate,
     onEdgeUpdateStart,
     onEdgeUpdateEnd,
@@ -223,6 +224,7 @@ export default (EdgeComponent: ComponentType<EdgeProps>) => {
                 centerX={sourceX}
                 centerY={sourceY}
                 radius={edgeUpdaterRadius}
+                offset={edgeUpdaterOffset}
                 onMouseDown={onEdgeUpdaterSourceMouseDown}
                 onMouseEnter={onEdgeUpdaterMouseEnter}
                 onMouseOut={onEdgeUpdaterMouseOut}
@@ -235,6 +237,7 @@ export default (EdgeComponent: ComponentType<EdgeProps>) => {
                 centerX={targetX}
                 centerY={targetY}
                 radius={edgeUpdaterRadius}
+                offset={edgeUpdaterOffset}
                 onMouseDown={onEdgeUpdaterTargetMouseDown}
                 onMouseEnter={onEdgeUpdaterMouseEnter}
                 onMouseOut={onEdgeUpdaterMouseOut}

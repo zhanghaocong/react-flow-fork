@@ -26,6 +26,7 @@ type EdgeRendererProps = Pick<
   | 'onEdgeUpdateStart'
   | 'onEdgeUpdateEnd'
   | 'edgeUpdaterRadius'
+  | 'edgeUpdaterOffset'
   | 'noPanClassName'
   | 'elevateEdgesOnSelect'
   | 'rfId'
@@ -62,6 +63,7 @@ const EdgeRenderer = ({
   onEdgeMouseLeave,
   onEdgeClick,
   edgeUpdaterRadius,
+  edgeUpdaterOffset,
   onEdgeDoubleClick,
   onEdgeUpdateStart,
   onEdgeUpdateEnd,
@@ -169,6 +171,7 @@ const EdgeRenderer = ({
                   onMouseLeave={onEdgeMouseLeave}
                   onClick={onEdgeClick}
                   edgeUpdaterRadius={edgeUpdaterRadius}
+                  edgeUpdaterOffset={edgeUpdaterOffset}
                   onEdgeDoubleClick={onEdgeDoubleClick}
                   onEdgeUpdateStart={onEdgeUpdateStart}
                   onEdgeUpdateEnd={onEdgeUpdateEnd}

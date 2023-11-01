@@ -135,6 +135,7 @@ const ReactFlow = forwardRef<ReactFlowRefType, ReactFlowProps>(
       onEdgeUpdateStart,
       onEdgeUpdateEnd,
       edgeUpdaterRadius = 10,
+      edgeUpdaterOffset = 10,
       onNodesChange,
       onEdgesChange,
       noDragClassName = 'nodrag',
@@ -230,6 +231,7 @@ const ReactFlow = forwardRef<ReactFlowRefType, ReactFlowProps>(
             onEdgeUpdateStart={onEdgeUpdateStart}
             onEdgeUpdateEnd={onEdgeUpdateEnd}
             edgeUpdaterRadius={edgeUpdaterRadius}
+            edgeUpdaterOffset={edgeUpdaterOffset}
             defaultMarkerColor={defaultMarkerColor}
             noDragClassName={noDragClassName}
             noWheelClassName={noWheelClassName}

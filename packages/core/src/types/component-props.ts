@@ -131,6 +131,7 @@ export type ReactFlowProps = Omit<HTMLAttributes<HTMLDivElement>, 'onError'> & {
   panOnScrollMode?: PanOnScrollMode;
   zoomOnDoubleClick?: boolean;
   edgeUpdaterRadius?: number;
+  edgeUpdaterOffset?: number;
   noDragClassName?: string;
   noWheelClassName?: string;
   noPanClassName?: string;

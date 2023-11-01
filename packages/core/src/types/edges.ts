@@ -87,6 +87,7 @@ export type WrapEdgeProps<T = any> = Omit<Edge<T>, 'sourceHandle' | 'targetHandl
   onMouseMove?: EdgeMouseHandler;
   onMouseLeave?: EdgeMouseHandler;
   edgeUpdaterRadius?: number;
+  edgeUpdaterOffset?: number;
   onEdgeUpdateStart?: (event: ReactMouseEvent, edge: Edge, handleType: HandleType) => void;
   onEdgeUpdateEnd?: (event: MouseEvent | TouchEvent, edge: Edge, handleType: HandleType) => void;
   rfId?: string;

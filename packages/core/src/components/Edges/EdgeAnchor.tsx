@@ -21,6 +21,7 @@ export interface EdgeAnchorProps extends SVGAttributes<SVGGElement> {
   centerX: number;
   centerY: number;
   radius?: number;
+  offset?: number;
   onMouseDown: (event: ReactMouseEvent<SVGGElement, MouseEvent>) => void;
   onMouseEnter: (event: ReactMouseEvent<SVGGElement, MouseEvent>) => void;
   onMouseOut: (event: ReactMouseEvent<SVGGElement, MouseEvent>) => void;
@@ -34,6 +35,7 @@ export const EdgeAnchor: FC<EdgeAnchorProps> = ({
   centerX,
   centerY,
   radius = 10,
+  offset = 10,
   onMouseDown,
   onMouseEnter,
   onMouseOut,
@@ -44,8 +46,8 @@ export const EdgeAnchor: FC<EdgeAnchorProps> = ({
     onMouseEnter={onMouseEnter}
     onMouseOut={onMouseOut}
     className={cc([EdgeUpdaterClassName, `${EdgeUpdaterClassName}-${type}`])}
-    cx={shiftX(centerX, radius, position)}
-    cy={shiftY(centerY, radius, position)}
+    cx={shiftX(centerX, offset, position)}
+    cy={shiftY(centerY, offset, position)}
     r={radius}
     stroke="transparent"
     fill="transparent"

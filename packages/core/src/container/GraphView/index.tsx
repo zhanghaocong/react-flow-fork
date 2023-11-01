@@ -96,6 +96,7 @@ const GraphView = ({
   onEdgeMouseMove,
   onEdgeMouseLeave,
   edgeUpdaterRadius,
+  edgeUpdaterOffset,
   onEdgeUpdateStart,
   onEdgeUpdateEnd,
   noDragClassName,
@@ -165,6 +166,7 @@ const GraphView = ({
           onEdgeUpdateStart={onEdgeUpdateStart}
           onEdgeUpdateEnd={onEdgeUpdateEnd}
           edgeUpdaterRadius={edgeUpdaterRadius}
+          edgeUpdaterOffset={edgeUpdaterOffset}
           defaultMarkerColor={defaultMarkerColor}
           noPanClassName={noPanClassName}
           elevateEdgesOnSelect={!!elevateEdgesOnSelect}
