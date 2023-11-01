@@ -1,6 +1,6 @@
 {
   "name": "@reactflowfork/node-toolbar",
-  "version": "2.3.4",
+  "version": "2.3.5",
   "description": "A toolbar component for React Flow that can be attached to a node.",
   "keywords": [
     "react",

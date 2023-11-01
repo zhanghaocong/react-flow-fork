@@ -1,6 +1,6 @@
 {
   "name": "@reactflowfork/background",
-  "version": "13.0.0",
+  "version": "13.1.0",
   "description": "Background component with different variants for React Flow",
   "keywords": [
     "react",
