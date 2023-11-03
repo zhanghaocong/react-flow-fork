@@ -174,7 +174,9 @@ export function handlePointerDown({
     }
 
     resetRecentHandle(prevActiveHandle);
-    cancelConnection();
+    requestAnimationFrame(() => {
+      cancelConnection();
+    })
     cancelAnimationFrame(autoPanId);
     autoPanStarted = false;
     isValid = false;

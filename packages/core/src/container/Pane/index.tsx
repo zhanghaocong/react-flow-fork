@@ -50,6 +50,7 @@ const selector = (s: ReactFlowState) => ({
   userSelectionActive: s.userSelectionActive,
   elementsSelectable: s.elementsSelectable,
   dragging: s.paneDragging,
+  connectionNodeId: s.connectionNodeId,
 });
 
 const Pane = memo(
@@ -72,7 +73,7 @@ const Pane = memo(
     const prevSelectedNodesCount = useRef<number>(0);
     const prevSelectedEdgesCount = useRef<number>(0);
     const containerBounds = useRef<DOMRect>();
-    const { userSelectionActive, elementsSelectable, dragging } = useStore(selector, shallow);
+    const { userSelectionActive, elementsSelectable, dragging, connectionNodeId } = useStore(selector, shallow);
 
     const resetUserSelection = () => {
       store.setState({ userSelectionActive: false, userSelectionRect: null });
@@ -82,6 +83,9 @@ const Pane = memo(
     };
 
     const onClick = (event: ReactMouseEvent) => {
+      if (connectionNodeId) {
+        return
+      }
       onPaneClick?.(event);
       store.getState().resetSelectedElements();
       store.setState({ nodesSelectionActive: false });
