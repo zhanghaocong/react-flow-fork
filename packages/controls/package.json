@@ -1,6 +1,6 @@
 {
   "name": "@reactflowfork/controls",
-  "version": "13.1.1",
+  "version": "13.1.2",
   "description": "Component to control the viewport of a React Flow instance",
   "keywords": [
     "react",
