@@ -186,6 +186,7 @@ export default (EdgeComponent: ComponentType<EdgeProps>) => {
         aria-label={ariaLabel === null ? undefined : ariaLabel ? ariaLabel : `Edge from ${source} to ${target}`}
         aria-describedby={isFocusable ? `${ARIA_EDGE_DESC_KEY}-${rfId}` : undefined}
         ref={edgeRef}
+        data-id={ id }
       >
         {!updating && (
           <EdgeComponent
